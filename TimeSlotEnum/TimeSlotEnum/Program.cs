@@ -56,25 +56,25 @@ namespace TimeSlotEnum
                 new TimeSlot(19, 45),
             };
 
-            //Booking b1 = new Booking(lunchTimes);
-            //var times1 = b1.Book(new TimeSlot(12, 0), 5);
+            Booking b1 = new Booking(lunchTimes);
+            var times1 = b1.Book(new TimeSlot(12, 0), 5);
 
-            //foreach (var item in times1)
-            //{
-            //    Console.WriteLine(item.ToString());
-            //}
+            foreach (var item in times1)
+            {
+                Console.WriteLine(item.ToString());
+            }
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
-            //Booking b2 = new Booking(brunchTimes);
-            //var times2 = b2.Book(new TimeSlot(11, 30), 6);
+            Booking b2 = new Booking(brunchTimes);
+            var times2 = b2.Book(new TimeSlot(11, 30), 6);
 
-            //foreach (var item in times2)
-            //{
-            //    Console.WriteLine(item.ToString());
-            //}
+            foreach (var item in times2)
+            {
+                Console.WriteLine(item.ToString());
+            }
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
             Booking b3 = new Booking(dinnerTimes);
             var times3 = b3.Book(new TimeSlot(17, 0), 4);
